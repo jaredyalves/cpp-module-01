@@ -2,7 +2,7 @@
 
 #include "Zombie.hpp"
 
-void random_chump(const std::string& name)
+void randomChump(std::string name)
 {
     const Zombie zombie = Zombie(name);
 
