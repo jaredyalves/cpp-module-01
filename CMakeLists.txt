@@ -19,3 +19,12 @@ add_executable(zombie_horde
         ex01/zombieHorde.cpp)
 
 add_executable(brain ex02/main.cpp)
+
+add_executable(violence
+        ex03/main.cpp
+        ex03/Weapon.cpp
+        ex03/Weapon.hpp
+        ex03/HumanA.cpp
+        ex03/HumanA.hpp
+        ex03/HumanB.cpp
+        ex03/HumanB.hpp)
