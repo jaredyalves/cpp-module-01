@@ -12,12 +12,11 @@ private:
     Weapon _weapon;
 
 public:
+    HumanA();
+
     HumanA(const std::string& name, const Weapon& weapon);
 
     void attack() const;
-
-private:
-    HumanA();
 };
 
 #endif //HUMANA_HPP

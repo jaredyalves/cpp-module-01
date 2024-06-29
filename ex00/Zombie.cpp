@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+Zombie::Zombie() {}
+
 Zombie::Zombie(const std::string& name): _name(name) {}
 
 Zombie::~Zombie()

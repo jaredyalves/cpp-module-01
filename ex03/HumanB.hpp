@@ -12,14 +12,13 @@ private:
     Weapon _weapon;
 
 public:
+    HumanB();
+
     explicit HumanB(const std::string& name);
 
     void setWeapon(const Weapon& weapon);
 
     void attack() const;
-
-private:
-    HumanB();
 };
 
 #endif //HUMANB_HPP

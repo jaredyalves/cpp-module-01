@@ -9,14 +9,13 @@ private:
     std::string _type;
 
 public:
+    Weapon();
+
     explicit Weapon(const std::string& type);
 
     std::string getType() const;
 
     void setType(const std::string& type);
-
-private:
-    Weapon();
 };
 
 #endif //WEAPON_HPP
