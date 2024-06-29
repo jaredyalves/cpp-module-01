@@ -11,3 +11,9 @@ add_executable(zombie
         ex00/Zombie.hpp
         ex00/newZombie.cpp
         ex00/randomChump.cpp)
+
+add_executable(zombie_horde
+        ex01/main.cpp
+        ex01/Zombie.cpp
+        ex01/Zombie.hpp
+        ex01/zombieHorde.cpp)
