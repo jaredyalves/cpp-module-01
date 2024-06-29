@@ -17,3 +17,5 @@ add_executable(zombie_horde
         ex01/Zombie.cpp
         ex01/Zombie.hpp
         ex01/zombieHorde.cpp)
+
+add_executable(brain ex02/main.cpp)
