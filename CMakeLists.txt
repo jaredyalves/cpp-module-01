@@ -31,7 +31,12 @@ add_executable(violence
 
 add_executable(sed ex04/main.cpp)
 
-add_executable(harl ex05/main.cpp
+add_executable(harl
         ex05/main.cpp
         ex05/Harl.cpp
         ex05/Harl.hpp)
+
+add_executable(harlFilter
+        ex06/main.cpp
+        ex06/Harl.cpp
+        ex06/Harl.hpp)
