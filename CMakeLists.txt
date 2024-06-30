@@ -28,3 +28,5 @@ add_executable(violence
         ex03/HumanA.hpp
         ex03/HumanB.cpp
         ex03/HumanB.hpp)
+
+add_executable(sed ex04/main.cpp)
