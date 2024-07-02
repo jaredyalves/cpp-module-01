@@ -9,14 +9,12 @@ class HumanB
 {
 private:
     std::string _name;
-    Weapon _weapon;
+    Weapon* _weapon;
 
 public:
-    HumanB();
-
     explicit HumanB(const std::string& name);
 
-    void setWeapon(const Weapon& weapon);
+    void setWeapon(Weapon& weapon);
 
     void attack() const;
 };

@@ -2,8 +2,6 @@
 
 #include <string>
 
-Weapon::Weapon() {}
-
 Weapon::Weapon(const std::string& type): _type(type) {}
 
 std::string Weapon::getType() const

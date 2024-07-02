@@ -9,8 +9,6 @@ private:
     std::string _type;
 
 public:
-    Weapon();
-
     explicit Weapon(const std::string& type);
 
     std::string getType() const;
